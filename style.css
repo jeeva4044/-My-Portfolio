@@ -160,7 +160,7 @@ h4 {
 
 .about-left img{
 
-    width: 30%;
+    width: 40%;
     border-radius: 10%;
 }
 
@@ -174,7 +174,7 @@ h4 {
 }
 
 .skills-left img {
-    width: 65%;
+    width: 60%;
     border-radius: 10%;
 }
 
@@ -219,7 +219,7 @@ h4 {
 }
 
 .reactjs {
-    width: 30%;
+    width: 50%;
     height: .5rem;
     background-color: #61dafb;
     margin: 1rem 0;
@@ -431,25 +431,6 @@ ul li a:hover {
     font-size: 1.2rem;
 }
 
-
-/* Scroll Top */
-#scroll-top {
-    background-color: #4db5ff;
-    color: #151527;
-    padding: 9px;
-    border-radius: 9px;
-    width: 35px;
-    height: 35px;
-    position: fixed;
-    bottom: 1rem;
-    right: 4%;
-    font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    z-index: 2000;
-}
 
 
 
