@@ -135,6 +135,8 @@ h4 {
 
 /* About Section */
 .about-content{
+    text-align: left;
+    position: flex;
     font-size: 3.0rem;
 }
 .about {
@@ -160,7 +162,7 @@ h4 {
 
 .about-left img{
 
-    width: 40%;
+    width: 50%;
     border-radius: 10%;
 }
 
