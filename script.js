@@ -7,3 +7,7 @@ contact.addEventListener('submit', function (e) {
     e.preventDefault();
     alert(`Sorry Request cannot be accepted due to some technical errors`);
 })
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}

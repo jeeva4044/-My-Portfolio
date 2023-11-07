@@ -1,9 +1,17 @@
+body{
+    background-position:unset;
+}
 #bottom {
     display: flex;
 }
 
 #navbar {
-    display: none;
+ 
+    display: flex;
+    background-color: #1f1f38;
+    text-align: center;
+    position: static;
+
 }
 
 .right {
@@ -108,9 +116,13 @@
 }
 
 .about-right img {
-    width: 70%;
+    width: 80%;
 }
 
+.skills-left img{
+    width: 80%;
+    
+}
 .skills-left {
     width: 80%;
 }
@@ -119,7 +131,7 @@
     width: 80%;
 }
 
-.about-right {
+.about-center {
     margin-bottom: 1rem;
     text-align: center;
     padding: .5rem 1rem;
@@ -140,10 +152,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        display: grid;
+        
     }
 
     #footer .res li {
         margin-bottom: 1rem;
+        display: flex;
+        
     }
 
     #bottom .bottom-nav {
